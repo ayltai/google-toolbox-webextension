@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# WebStorm
+.idea/
+*.iml
+
+# Dependencies
+/node_modules
+
+# Testing
+/coverage
+
+# Generated
+/build
+/web-ext-artifacts
+/.scannerwork
+
+# Transient
+*.log

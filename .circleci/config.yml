@@ -1,0 +1,117 @@
+version: 2
+
+references:
+
+  ## Cache
+
+  cache_key: &cache_key
+    key: cache-{{ checksum "package-lock.json" }}
+  restore_cache: &restore_cache
+    restore_cache:
+      <<: *cache_key
+  save_cache: &save_cache
+    save_cache:
+      <<: *cache_key
+      paths:
+        - ./node_modules
+
+  ## Docker image configuration
+
+  config: &config
+    working_directory: ~/workspace
+    docker:
+      - image: circleci/node:13
+    environment:
+      TERM: dumb
+
+jobs:
+
+  dependencies:
+    <<: *config
+    steps:
+      - checkout
+      - *restore_cache
+      - run:
+          name: Install dependencies
+          command: npm i -D
+      - *save_cache
+
+  check_stylesheet:
+    <<: *config
+    steps:
+      - checkout
+      - *restore_cache
+      - run:
+          name: Run linter for Stylesheet files
+          command: npm run check-stylesheet
+
+  check_javascript:
+    <<: *config
+    steps:
+      - checkout
+      - *restore_cache
+      - run:
+          name: Run linter for JavaScript files
+          command: npm run check-javascript
+
+  test:
+    <<: *config
+    steps:
+      - checkout
+      - *restore_cache
+      - run:
+          name: Execute unit tests
+          command: npm run test
+      - store_artifacts:
+          path: coverage
+          destination: /coverage/
+      - run:
+          name: Upload coverage to Codecov
+          command: npm run codecov
+      - run:
+          name: Upload coverage to Codacy
+          command: npm run codacy
+      - run:
+          name: Download Sonar Scanner
+          command: mkdir ~/.sonar && curl -sSLo ~/.sonar/sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$SONAR_SCANNER_VERSION-linux.zip && unzip ~/.sonar/sonar-scanner.zip -d ~/.sonar/ && rm ~/.sonar/sonar-scanner.zip
+      - run:
+          name: Upload coverage to SonarCloud
+          command: ~/.sonar/sonar-scanner-$SONAR_SCANNER_VERSION-linux/bin/sonar-scanner -Dsonar.projectKey=ayltai_restore-closed-tabs-webextension -Dsonar.organization=ayltai -Dsonar.sources=. -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN
+
+  build:
+    <<: *config
+    steps:
+      - checkout
+      - *restore_cache
+      - run:
+          name: Build for production
+          command: npm run build
+      - run:
+          name: Run linter for WebExtension package
+          command: npm run check-web-ext
+      - store_artifacts:
+          path: web-ext-artifacts/google-toolbox-1.0.0.zip
+          destination: google-toolbox-1.0.0.zip
+
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - dependencies
+      - check_stylesheet:
+          requires:
+            - dependencies
+      - check_javascript:
+          requires:
+            - dependencies
+      - test:
+          requires:
+            - dependencies
+      - build:
+          requires:
+            - dependencies
+            - test
+          filters:
+            branches:
+              only:
+                - master

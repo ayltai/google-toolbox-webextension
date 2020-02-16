@@ -1,0 +1,118 @@
+{
+    "manifest_version" : 2,
+    "name"             : "Google Toolbox",
+    "short_name"       : "google-toolbox",
+    "description"      : "500+ Google products readily available at your fingertips!",
+    "version"          : "1.0.0",
+    "homepage_url"     : "https://github.com/ayltai/google-toolbox-webextension",
+    "author"           : "Alan Tai",
+    "applications"     : {
+        "gecko" : {
+            "id"                 : "{2094e8aa-a5c6-4e34-936a-ced0057b33ad}",
+            "strict_min_version" : "58.0"
+        }
+    },
+    "icons"            : {
+        "16"  : "icons/icon-white.svg",
+        "24"  : "icons/icon-white.svg",
+        "32"  : "icons/icon-white.svg",
+        "48"  : "icons/icon-white.svg",
+        "64"  : "icons/icon-white.svg",
+        "72"  : "icons/icon-white.svg",
+        "96"  : "icons/icon-white.svg",
+        "128" : "icons/icon-white.svg",
+        "144" : "icons/icon-white.svg",
+        "192" : "icons/icon-white.svg",
+        "256" : "icons/icon-white.svg",
+        "512" : "icons/icon-white.svg"
+    },
+    "permissions"      : [
+        "storage",
+        "tabs"
+    ],
+    "browser_action"   : {
+        "browser_style" : true,
+        "default_title" : "Google Toolbox",
+        "default_popup" : "index.html",
+        "default_icon"  : {
+            "16"  : "icons/icon-white.svg",
+            "24"  : "icons/icon-white.svg",
+            "32"  : "icons/icon-white.svg",
+            "48"  : "icons/icon-white.svg",
+            "64"  : "icons/icon-white.svg",
+            "72"  : "icons/icon-white.svg",
+            "96"  : "icons/icon-white.svg",
+            "128" : "icons/icon-white.svg",
+            "144" : "icons/icon-white.svg",
+            "192" : "icons/icon-white.svg",
+            "256" : "icons/icon-white.svg",
+            "512" : "icons/icon-white.svg"
+        },
+        "theme_icons"   : [
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 16
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 24
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 32
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 48
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 64
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 72
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 96
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 128
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 144
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 192
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 256
+            },
+            {
+                "dark"  : "icons/icon-black.svg",
+                "light" : "icons/icon-white.svg",
+                "size"  : 512
+            }
+        ]
+    },
+    "options_ui" : {
+        "open_in_tab" : false,
+        "page"        : "options/index.html"
+    }
+}
