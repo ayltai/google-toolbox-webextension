@@ -1,18 +1,18 @@
 {
-    "manifest_version" : 2,
-    "name"             : "Google Toolbox",
-    "short_name"       : "google-toolbox",
-    "description"      : "500+ Google products readily available at your fingertips!",
-    "version"          : "1.0.0",
-    "homepage_url"     : "https://github.com/ayltai/google-toolbox-webextension",
-    "author"           : "Alan Tai",
-    "applications"     : {
+    "manifest_version"         : 2,
+    "name"                     : "Google Toolbox",
+    "short_name"               : "google-toolbox",
+    "description"              : "180+ Google products readily available at your fingertips!",
+    "version"                  : "1.0.0",
+    "homepage_url"             : "https://github.com/ayltai/google-toolbox-webextension",
+    "author"                   : "Alan Tai",
+    "applications"             : {
         "gecko" : {
             "id"                 : "{2094e8aa-a5c6-4e34-936a-ced0057b33ad}",
             "strict_min_version" : "58.0"
         }
     },
-    "icons"            : {
+    "icons"                    : {
         "16"  : "icons/icon-white.svg",
         "24"  : "icons/icon-white.svg",
         "32"  : "icons/icon-white.svg",
@@ -26,11 +26,11 @@
         "256" : "icons/icon-white.svg",
         "512" : "icons/icon-white.svg"
     },
-    "permissions"      : [
+    "permissions"              : [
         "storage",
         "tabs"
     ],
-    "browser_action"   : {
+    "browser_action"           : {
         "browser_style" : true,
         "default_title" : "Google Toolbox",
         "default_popup" : "index.html",
@@ -111,7 +111,7 @@
             }
         ]
     },
-    "options_ui" : {
+    "options_ui"               : {
         "open_in_tab" : false,
         "page"        : "options/index.html"
     }

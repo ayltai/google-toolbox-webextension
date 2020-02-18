@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => browser.storage.sync.get({
 }));
 
 document.getElementById('save').addEventListener('click', () => {
-    const numRows      = Math.min(MIN_ROWS, Math.max(MAX_ROWS, document.getElementById('numRows').value || NUM_ROWS));
+    const numRows      = Math.max(MIN_ROWS, Math.min(MAX_ROWS, document.getElementById('numRows').value || NUM_ROWS));
     const compactStyle = document.getElementById('compactStyle').checked || COMPACT_STYLE;
 
     browser.storage.sync.set({

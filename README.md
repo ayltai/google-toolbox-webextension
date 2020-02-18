@@ -1,5 +1,5 @@
 # Google Toolbox WebExtension
-500+ Google products readily available at your fingertips!
+180+ Google products readily available at your fingertips!
 
 | Category      | Measurement                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -10,7 +10,7 @@
 | Security      | [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=ayltai_google-toolbox-webextension&metric=security_rating)](https://sonarcloud.io/dashboard?id=ayltai_google-toolbox-webextension) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ayltai_google-toolbox-webextension&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=ayltai_google-toolbox-webextension)                                                                                                                                                                                                                     |
 | Miscellaneous | ![Maintenance](https://img.shields.io/maintenance/yes/2020) [![Release](https://img.shields.io/github/release/ayltai/google-toolbox-webextension.svg?style=flat)](https://github.com/ayltai/google-toolbox-webextension/releases) [![License](https://img.shields.io/github/license/ayltai/google-toolbox-webextension.svg?style=flat)](https://github.com/ayltai/google-toolbox-webextension/blob/master/LICENSE)                                                                                                                                                                                                                                  |
 
-A Firefox/Chrome/Edge extension that provides a customizable list of shortcuts to 500+ Google services.
+A Firefox/Chrome/Edge extension that provides a customizable list of shortcuts to 186 Google services.
 
 Available at: https://addons.mozilla.org/addon/google-toolbox/
 
@@ -19,7 +19,7 @@ Available at: https://addons.mozilla.org/addon/google-toolbox/
 ![Screenshot 2](design/screenshot-2.png)
 
 ## Features
-* Shows a list of shortcuts to 500+ Google services
+* Shows a list of shortcuts to 186 Google services
 * Fully customizable shortcut ordering
 * Support two styles: compact and cozy
 
