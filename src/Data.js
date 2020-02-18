@@ -55,14 +55,16 @@ export const SERVICES = [
         url  : 'https://store.google.com/product/google_daydream_view',
     },
     {
-        id   : 'docs',
-        name : 'Docs',
-        url  : 'https://www.google.com/docs/about/',
+        id       : 'docs',
+        name     : 'Docs',
+        url      : 'https://www.google.com/docs/about/',
+        featured : true,
     },
     {
-        id   : 'drive',
-        name : 'Drive',
-        url  : 'https://www.google.com/drive/',
+        id       : 'drive',
+        name     : 'Drive',
+        url      : 'https://www.google.com/drive/',
+        featured : true,
     },
     {
         id   : 'earth',
@@ -85,9 +87,10 @@ export const SERVICES = [
         url  : 'https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin',
     },
     {
-        id   : 'gmail',
-        name : 'Gmail',
-        url  : 'https://www.gmail.com/intl/en_us/mail/help/about.html',
+        id       : 'gmail',
+        name     : 'Gmail',
+        url      : 'https://www.gmail.com/intl/en_us/mail/help/about.html',
+        featured : true,
     },
     {
         id   : 'alerts',
@@ -155,9 +158,10 @@ export const SERVICES = [
         url  : 'https://pay.google.com/about/',
     },
     {
-        id   : 'photos',
-        name : 'Photos',
-        url  : 'https://www.google.com/photos/about',
+        id       : 'photos',
+        name     : 'Photos',
+        url      : 'https://www.google.com/photos/about',
+        featured : true,
     },
     {
         id   : 'play',
@@ -221,9 +225,10 @@ export const SERVICES = [
         url  : 'https://www.google.com/keep/',
     },
     {
-        id   : 'maps',
-        name : 'Maps',
-        url  : 'https://www.google.com/maps/about/',
+        id       : 'maps',
+        name     : 'Maps',
+        url      : 'https://www.google.com/maps/about/',
+        featured : true,
     },
     {
         id   : 'messages',
@@ -261,9 +266,10 @@ export const SERVICES = [
         url  : 'https://www.google.com/search/about/',
     },
     {
-        id   : 'sheets',
-        name : 'Sheets',
-        url  : 'https://www.google.com/sheets/about/',
+        id       : 'sheets',
+        name     : 'Sheets',
+        url      : 'https://www.google.com/sheets/about/',
+        featured : true,
     },
     {
         id   : 'sites',
@@ -271,9 +277,10 @@ export const SERVICES = [
         url  : 'https://sites.google.com/new',
     },
     {
-        id   : 'slides',
-        name : 'Slides',
-        url  : 'https://www.google.com/slides/about/',
+        id       : 'slides',
+        name     : 'Slides',
+        url      : 'https://www.google.com/slides/about/',
+        featured : true,
     },
     {
         id   : 'tilt-brush',
@@ -301,9 +308,10 @@ export const SERVICES = [
         url  : 'https://wearos.google.com/',
     },
     {
-        id   : 'youtube',
-        name : 'YouTube',
-        url  : 'https://www.youtube.com/yt/about/',
+        id       : 'youtube',
+        name     : 'YouTube',
+        url      : 'https://www.youtube.com/yt/about/',
+        featured : true,
     },
     {
         id   : 'youtube-kids',

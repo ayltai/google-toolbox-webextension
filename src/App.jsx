@@ -1,7 +1,6 @@
 import { createMuiTheme, ThemeProvider, useMediaQuery, } from '@material-ui/core';
 import arrayMove from 'array-move';
 import React from 'react';
-import browser from 'webextension-polyfill';
 
 import { DroppableGridList, } from './components/DroppableGridList';
 import { CONFIGURATIONS, } from './Config';
@@ -18,12 +17,13 @@ export const App = () => {
 
     const [ state, setState, ] = React.useState({
         dragged  : false,
-        services : SERVICES,
+        services : SERVICES.sort((left, right) => left.featured && right.featured ? 0 : left.featured ? -1 : right.featured ? 1 : left.name.localeCompare(right.name)),
     });
 
-    if (!state.configuration) browser.storage.sync.get({
+    if (!state.configuration) window.browser.storage.sync.get({
         numRows      : CONFIGURATIONS.medium.rows,
         compactStyle : false,
+        services     : state.services,
     }, preferences => {
         const configuration = preferences.compactStyle ? CONFIGURATIONS.small : CONFIGURATIONS.medium;
         configuration.rows = preferences.numRows;
@@ -31,8 +31,31 @@ export const App = () => {
         setState({
             ...state,
             configuration,
+            services : preferences.services,
         });
     });
+
+    const handleClick = index => {
+        window.browser.tabs.create({
+            url : state.services[index].url,
+        });
+
+        window.close();
+    };
+
+    const handleMove = (from, to) => {
+        const services = arrayMove(state.services, from, to);
+
+        setState({
+            ...state,
+            services,
+            dragged : false,
+        });
+
+        window.browser.storage.sync.set({
+            services,
+        });
+    };
 
     return (
         <ThemeProvider theme={theme}>
@@ -55,18 +78,10 @@ export const App = () => {
                                 dragged : false,
                             });
                         } else {
-                            browser.tabs.create({
-                                url : state.services[oldIndex].url,
-                            });
-
-                            window.close();
+                            handleClick(oldIndex);
                         }
                     } else {
-                        setState({
-                            ...state,
-                            dragged  : false,
-                            services : arrayMove(state.services, oldIndex, newIndex),
-                        });
+                        handleMove(oldIndex, newIndex);
                     }
                 }} />
         </ThemeProvider>

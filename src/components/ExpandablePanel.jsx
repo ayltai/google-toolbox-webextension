@@ -2,7 +2,6 @@ import { Button, makeStyles } from '@material-ui/core';
 import { ExpandMore, Settings } from '@material-ui/icons';
 import PropTypes from 'prop-types';
 import React from 'react';
-import browser from 'webextension-polyfill';
 
 export const ExpandablePanel = props => {
     const useStyles = makeStyles(theme => ({
@@ -49,7 +48,7 @@ export const ExpandablePanel = props => {
                     variant='outlined'
                     startIcon={<Settings />}
                     onClick={() => {
-                        browser.runtime.openOptionsPage();
+                        window.browser.runtime.openOptionsPage();
 
                         window.close();
                     }}>

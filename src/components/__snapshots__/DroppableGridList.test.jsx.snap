@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DroppableGridList /> renders correctly 1`] = `
+<div
+  className="makeStyles-container-2"
+>
+  <ul
+    className="MuiGridList-root"
+    style={
+      Object {
+        "margin": -2,
+      }
+    }
+  >
+    <li
+      className="MuiGridListTile-root"
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <button
+          aria-describedby={null}
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-6 MuiIconButton-sizeSmall"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Android Auto"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <div
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-7"
+            >
+              <img
+                className="MuiAvatar-img"
+                src="images/android-auto.png"
+              />
+            </div>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </li>
+    <li
+      className="MuiGridListTile-root"
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <button
+          aria-describedby={null}
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-42 MuiIconButton-sizeSmall"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Android OS"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <div
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-43"
+            >
+              <img
+                className="MuiAvatar-img"
+                src="images/android-os.png"
+              />
+            </div>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </li>
+  </ul>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-button-4"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      <span
+        className="MuiButton-startIcon MuiButton-iconSizeMedium"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+      </span>
+      More
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

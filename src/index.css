@@ -3,6 +3,7 @@ body {
     color: #212121;
     margin: 0;
     width: 292px;
+    overflow-x: hidden;
 }
 
 li {

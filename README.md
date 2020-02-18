@@ -18,9 +18,11 @@ Available at: https://addons.mozilla.org/addon/google-toolbox/
 
 ![Screenshot 2](design/screenshot-2.png)
 
+![Screenshot 3](design/screenshot-3.png)
+
 ## Features
 * Shows a list of shortcuts to 186 Google services
-* Fully customizable shortcut ordering
+* Fully customizable drag-and-drop shortcut ordering
 * Support two styles: compact and cozy
 
 ## Getting started
