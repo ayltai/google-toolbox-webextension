@@ -85,7 +85,7 @@ jobs:
       - *restore_cache
       - run:
           name: Build for production
-          command: npm run build
+          command: unset CI && npm run build
       - run:
           name: Run linter for WebExtension package
           command: npm run check-web-ext

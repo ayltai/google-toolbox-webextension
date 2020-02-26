@@ -58,5 +58,5 @@ This software is made with the support of open source projects:
 * [web-ext](https://github.com/mozilla/web-ext)
 
 ... and closed source services:
-* [CircleCI](https://circleci.com): Continuous integration and delivery
-* [SonarCloud](https://sonarcloud.io): Online service for code quality and security
+* [CircleCI](https://circleci.com)
+* [SonarCloud](https://sonarcloud.io)

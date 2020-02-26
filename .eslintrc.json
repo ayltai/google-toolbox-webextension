@@ -4,8 +4,8 @@
         "plugin:react/recommended"
     ],
     "env"           : {
-        "browser" : true,
-        "es6"     : true
+        "webextensions" : true,
+        "es6"           : true
     },
     "globals"       : {
         "Atomics"           : "readonly",

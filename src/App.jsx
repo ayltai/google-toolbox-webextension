@@ -20,20 +20,22 @@ export const App = () => {
         services : SERVICES.sort((left, right) => left.featured && right.featured ? 0 : left.featured ? -1 : right.featured ? 1 : left.name.localeCompare(right.name)),
     });
 
-    if (!state.configuration) window.browser.storage.sync.get({
-        numRows      : CONFIGURATIONS.medium.rows,
-        compactStyle : false,
-        services     : state.services,
-    }, preferences => {
-        const configuration = preferences.compactStyle ? CONFIGURATIONS.small : CONFIGURATIONS.medium;
-        configuration.rows = preferences.numRows;
+    React.useEffect(() => {
+        window.browser.storage.sync.get({
+            numRows      : CONFIGURATIONS.medium.rows,
+            compactStyle : false,
+            services     : state.services,
+        }, preferences => {
+            const configuration = preferences.compactStyle ? CONFIGURATIONS.small : CONFIGURATIONS.medium;
+            configuration.rows = preferences.numRows;
 
-        setState({
-            ...state,
-            configuration,
-            services : preferences.services,
+            setState({
+                ...state,
+                configuration,
+                services : preferences.services,
+            });
         });
-    });
+    }, []);
 
     const handleClick = index => {
         window.browser.tabs.create({
