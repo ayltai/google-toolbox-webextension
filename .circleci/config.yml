@@ -69,9 +69,6 @@ jobs:
           name: Upload coverage to Codecov
           command: npm run codecov
       - run:
-          name: Upload coverage to Codacy
-          command: npm run codacy
-      - run:
           name: Download Sonar Scanner
           command: mkdir ~/.sonar && curl -sSLo ~/.sonar/sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-$SONAR_SCANNER_VERSION-linux.zip && unzip ~/.sonar/sonar-scanner.zip -d ~/.sonar/ && rm ~/.sonar/sonar-scanner.zip
       - run:
