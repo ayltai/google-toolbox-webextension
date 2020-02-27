@@ -14,6 +14,8 @@ A Firefox/Chrome/Edge extension that provides a customizable list of shortcuts t
 
 Available at: https://addons.mozilla.org/addon/google-toolbox/
 
+[![Buy me a coffee](https://img.shields.io/static/v1?label=Buy%20me%20a&message=coffee&color=important&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoff.ee/ayltai)
+
 ![Screenshot 1](design/screenshot-1.png)
 
 ![Screenshot 2](design/screenshot-2.png)
