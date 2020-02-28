@@ -3,7 +3,7 @@
     "name"                     : "Google Toolbox",
     "short_name"               : "google-toolbox",
     "description"              : "180+ Google products readily available at your fingertips!",
-    "version"                  : "1.0.0",
+    "version"                  : "1.0.1",
     "homepage_url"             : "https://github.com/ayltai/google-toolbox-webextension",
     "author"                   : "Alan Tai",
     "applications"             : {
@@ -13,18 +13,14 @@
         }
     },
     "icons"                    : {
-        "16"  : "icons/icon-white.svg",
-        "24"  : "icons/icon-white.svg",
-        "32"  : "icons/icon-white.svg",
-        "48"  : "icons/icon-white.svg",
-        "64"  : "icons/icon-white.svg",
-        "72"  : "icons/icon-white.svg",
-        "96"  : "icons/icon-white.svg",
-        "128" : "icons/icon-white.svg",
-        "144" : "icons/icon-white.svg",
-        "192" : "icons/icon-white.svg",
-        "256" : "icons/icon-white.svg",
-        "512" : "icons/icon-white.svg"
+        "16"  : "icons/16-white.png",
+        "24"  : "icons/24-white.png",
+        "32"  : "icons/32-white.png",
+        "48"  : "icons/48-white.png",
+        "64"  : "icons/64-white.png",
+        "72"  : "icons/72-white.png",
+        "96"  : "icons/96-white.png",
+        "128" : "icons/128-white.png"
     },
     "permissions"              : [
         "storage",
@@ -35,79 +31,55 @@
         "default_title" : "Google Toolbox",
         "default_popup" : "index.html",
         "default_icon"  : {
-            "16"  : "icons/icon-white.svg",
-            "24"  : "icons/icon-white.svg",
-            "32"  : "icons/icon-white.svg",
-            "48"  : "icons/icon-white.svg",
-            "64"  : "icons/icon-white.svg",
-            "72"  : "icons/icon-white.svg",
-            "96"  : "icons/icon-white.svg",
-            "128" : "icons/icon-white.svg",
-            "144" : "icons/icon-white.svg",
-            "192" : "icons/icon-white.svg",
-            "256" : "icons/icon-white.svg",
-            "512" : "icons/icon-white.svg"
+            "16"  : "icons/16-white.png",
+            "24"  : "icons/24-white.png",
+            "32"  : "icons/32-white.png",
+            "48"  : "icons/48-white.png",
+            "64"  : "icons/64-white.png",
+            "72"  : "icons/72-white.png",
+            "96"  : "icons/96-white.png",
+            "128" : "icons/128-white.png"
         },
         "theme_icons"   : [
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/16-black.png",
+                "light" : "icons/16-white.png",
                 "size"  : 16
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/24-black.png",
+                "light" : "icons/24-white.png",
                 "size"  : 24
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/32-black.png",
+                "light" : "icons/32-white.png",
                 "size"  : 32
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/48-black.png",
+                "light" : "icons/48-white.png",
                 "size"  : 48
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/64-black.png",
+                "light" : "icons/64-white.png",
                 "size"  : 64
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/72-black.png",
+                "light" : "icons/72-white.png",
                 "size"  : 72
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/96-black.png",
+                "light" : "icons/96-white.png",
                 "size"  : 96
             },
             {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
+                "dark"  : "icons/128-black.png",
+                "light" : "icons/128-white.png",
                 "size"  : 128
-            },
-            {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
-                "size"  : 144
-            },
-            {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
-                "size"  : 192
-            },
-            {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
-                "size"  : 256
-            },
-            {
-                "dark"  : "icons/icon-black.svg",
-                "light" : "icons/icon-white.svg",
-                "size"  : 512
             }
         ]
     },

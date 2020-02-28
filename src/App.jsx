@@ -21,7 +21,7 @@ export const App = () => {
     });
 
     React.useEffect(() => {
-        window.browser.storage.sync.get({
+        window.chrome.storage.sync.get({
             numRows      : CONFIGURATIONS.medium.rows,
             compactStyle : false,
             services     : state.services,
@@ -38,7 +38,7 @@ export const App = () => {
     }, []);
 
     const handleClick = index => {
-        window.browser.tabs.create({
+        window.chrome.tabs.create({
             url : state.services[index].url,
         });
 
@@ -54,7 +54,7 @@ export const App = () => {
             dragged : false,
         });
 
-        window.browser.storage.sync.set({
+        window.chrome.storage.sync.set({
             services,
         });
     };
