@@ -28,6 +28,7 @@
         "check-javascript" : "./node_modules/.bin/eslint src/**/*.js src/**/*.jsx",
         "check-web-ext"    : "./node_modules/.bin/web-ext lint -s ./build/",
         "codecov"          : "./node_modules/.bin/codecov",
+        "preinstall"       : "npx npm-force-resolutions",
         "start"            : "web-ext run -s ./build/",
         "build"            : "INLINE_RUNTIME_CHUNK=false react-scripts build && ./node_modules/.bin/web-ext build --overwrite-dest -s ./build/",
         "test"             : "react-scripts test --ci --no-watchman --coverage --coverageDirectory=coverage",
@@ -56,6 +57,10 @@
         "react"              : "^16.13.1",
         "react-dom"          : "^16.13.1",
         "react-scripts"      : "^3.4.1"
+    },
+    "resolutions"     : {
+        "acorn"    : "7.1.1",
+        "minimist" : "1.2.5"
     },
     "eslintConfig"    : {
         "extends" : "react-app"
