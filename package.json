@@ -1,17 +1,17 @@
 {
-    "name"            : "google-toolbox-webextension",
-    "description"     : "180+ Google products readily available at your fingertips!",
-    "version"         : "1.0.1",
-    "author"          : "Alan Tai",
-    "repository"      : {
-        "type" : "git",
-        "url"  : "git+https://github.com/ayltai/google-toolbox-webextension.git"
+    "name": "google-toolbox-webextension",
+    "description": "180+ Google products readily available at your fingertips!",
+    "version": "1.0.1",
+    "author": "Alan Tai",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ayltai/google-toolbox-webextension.git"
     },
-    "bugs"            : {
-        "url" : "https://github.com/ayltai/google-toolbox-webextension/issues"
+    "bugs": {
+        "url": "https://github.com/ayltai/google-toolbox-webextension/issues"
     },
-    "license"         : "MIT",
-    "keywords"        : [
+    "license": "MIT",
+    "keywords": [
         "google",
         "gsuite",
         "g-suite",
@@ -22,56 +22,57 @@
         "chrome",
         "edge"
     ],
-    "scripts"         : {
-        "check"            : "npm run check-stylesheet && npm run check-javascript && npm run check-web-ext",
-        "check-stylesheet" : "./node_modules/.bin/stylelint src/**/*.css public/**/*.css !build/**",
-        "check-javascript" : "./node_modules/.bin/eslint src/**/*.js src/**/*.jsx",
-        "check-web-ext"    : "./node_modules/.bin/web-ext lint -s ./build/",
-        "codecov"          : "./node_modules/.bin/codecov",
-        "preinstall"       : "npx npm-force-resolutions",
-        "start"            : "web-ext run -s ./build/",
-        "build"            : "INLINE_RUNTIME_CHUNK=false react-scripts build && ./node_modules/.bin/web-ext build --overwrite-dest -s ./build/",
-        "test"             : "react-scripts test --ci --no-watchman --coverage --coverageDirectory=coverage",
-        "eject"            : "react-scripts eject"
+    "scripts": {
+        "check": "npm run check-stylesheet && npm run check-javascript && npm run check-web-ext",
+        "check-stylesheet": "./node_modules/.bin/stylelint src/**/*.css public/**/*.css !build/**",
+        "check-javascript": "./node_modules/.bin/eslint src/**/*.js src/**/*.jsx",
+        "check-web-ext": "./node_modules/.bin/web-ext lint -s ./build/",
+        "codecov": "./node_modules/.bin/codecov",
+        "preinstall": "npx npm-force-resolutions",
+        "start": "web-ext run -s ./build/",
+        "build": "INLINE_RUNTIME_CHUNK=false react-scripts build && ./node_modules/.bin/web-ext build --overwrite-dest -s ./build/",
+        "test": "react-scripts test --ci --no-watchman --coverage --coverageDirectory=coverage",
+        "eject": "react-scripts eject"
     },
-    "devDependencies" : {
-        "@testing-library/jest-dom"   : "^5.3.0",
-        "@testing-library/react"      : "^10.0.2",
-        "@testing-library/user-event" : "^10.0.1",
-        "codecov"                     : "^3.6.5",
-        "enzyme"                      : "^3.11.0",
-        "enzyme-adapter-react-16"     : "^1.15.2",
-        "eslint"                      : "^6.8.0",
-        "react-sortable-hoc"          : "^1.11.0",
-        "react-test-renderer"         : "^16.13.1",
-        "sinon-chrome"                : "^3.0.1",
-        "stylelint"                   : "^13.2.1",
-        "stylelint-config-standard"   : "^20.0.0",
-        "web-ext"                     : "^4.1.0"
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.3.0",
+        "@testing-library/react": "^10.0.2",
+        "@testing-library/user-event": "^10.0.1",
+        "acorn": "^7.1.1",
+        "codecov": "^3.6.5",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "eslint": "^6.8.0",
+        "react-sortable-hoc": "^1.11.0",
+        "react-test-renderer": "^16.13.1",
+        "sinon-chrome": "^3.0.1",
+        "stylelint": "^13.2.1",
+        "stylelint-config-standard": "^20.0.0",
+        "web-ext": "^4.1.0"
     },
-    "dependencies"    : {
-        "@material-ui/core"  : "^4.9.8",
-        "@material-ui/icons" : "^4.9.1",
-        "array-move"         : "^2.2.1",
-        "prop-types"         : "^15.7.2",
-        "react"              : "^16.13.1",
-        "react-dom"          : "^16.13.1",
-        "react-scripts"      : "^3.4.1"
+    "dependencies": {
+        "@material-ui/core": "^4.9.8",
+        "@material-ui/icons": "^4.9.1",
+        "array-move": "^2.2.1",
+        "prop-types": "^15.7.2",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "^3.4.1"
     },
-    "resolutions"     : {
-        "acorn"    : "7.1.1",
-        "minimist" : "1.2.5"
+    "resolutions": {
+        "acorn": "7.1.1",
+        "minimist": "1.2.5"
     },
-    "eslintConfig"    : {
-        "extends" : "react-app"
+    "eslintConfig": {
+        "extends": "react-app"
     },
-    "browserslist"    : {
-        "production"  : [
+    "browserslist": {
+        "production": [
             ">0.2%",
             "not dead",
             "not op_mini all"
         ],
-        "development" : [
+        "development": [
             "last 1 chrome version",
             "last 1 firefox version",
             "last 1 safari version"

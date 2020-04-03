@@ -5,7 +5,7 @@ references:
   ## Cache
 
   cache_key: &cache_key
-    key: cache-{{ checksum "package-lock.json" }}
+    key: cache-{{ checksum "package.json" }}
   restore_cache: &restore_cache
     restore_cache:
       <<: *cache_key
