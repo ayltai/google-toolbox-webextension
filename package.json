@@ -48,7 +48,7 @@
         "sinon-chrome": "^3.0.1",
         "stylelint": "^13.3.3",
         "stylelint-config-standard": "^20.0.0",
-        "web-ext": "^4.1.0"
+        "web-ext": "^4.2.0"
     },
     "dependencies": {
         "@material-ui/core": "^4.9.11",
