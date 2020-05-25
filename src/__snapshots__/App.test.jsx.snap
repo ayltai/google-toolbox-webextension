@@ -20,7 +20,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-6 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-5 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -42,7 +42,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-7"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-6"
             >
               <img
                 className="MuiAvatar-img"
@@ -64,7 +64,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-42 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-7 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -86,7 +86,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-43"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-8"
             >
               <img
                 className="MuiAvatar-img"
@@ -108,7 +108,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-44 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-9 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -130,7 +130,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-45"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-10"
             >
               <img
                 className="MuiAvatar-img"
@@ -152,7 +152,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-46 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-11 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -174,7 +174,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-47"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-12"
             >
               <img
                 className="MuiAvatar-img"
@@ -196,7 +196,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-48 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-13 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -218,7 +218,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-49"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-14"
             >
               <img
                 className="MuiAvatar-img"
@@ -240,7 +240,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-50 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-15 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -262,7 +262,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-51"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-16"
             >
               <img
                 className="MuiAvatar-img"
@@ -284,7 +284,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-52 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-17 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -306,7 +306,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-53"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-18"
             >
               <img
                 className="MuiAvatar-img"
@@ -328,7 +328,7 @@ exports[`<App /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-54 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-19 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -350,7 +350,7 @@ exports[`<App /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-55"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-20"
             >
               <img
                 className="MuiAvatar-img"

@@ -20,7 +20,7 @@ exports[`<DroppableGridList /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-6 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-5 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -42,7 +42,7 @@ exports[`<DroppableGridList /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-7"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-6"
             >
               <img
                 className="MuiAvatar-img"
@@ -64,7 +64,7 @@ exports[`<DroppableGridList /> renders correctly 1`] = `
       >
         <button
           aria-describedby={null}
-          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-42 MuiIconButton-sizeSmall"
+          className="MuiButtonBase-root MuiIconButton-root makeStyles-iconButton-7 MuiIconButton-sizeSmall"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -86,7 +86,7 @@ exports[`<DroppableGridList /> renders correctly 1`] = `
             className="MuiIconButton-label"
           >
             <div
-              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-43"
+              className="MuiAvatar-root MuiAvatar-square makeStyles-avatar-8"
             >
               <img
                 className="MuiAvatar-img"
