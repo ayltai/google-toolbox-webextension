@@ -37,7 +37,7 @@
     "devDependencies": {
         "@testing-library/jest-dom": "^5.10.0",
         "@testing-library/react": "^10.2.1",
-        "@testing-library/user-event": "^11.4.1",
+        "@testing-library/user-event": "^11.4.2",
         "acorn": "^7.3.1",
         "codecov": "^3.7.0",
         "enzyme": "^3.11.0",
