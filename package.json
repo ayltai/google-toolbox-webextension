@@ -39,7 +39,7 @@
         "@testing-library/react": "^11.1.1",
         "@testing-library/user-event": "^12.1.10",
         "acorn": "^8.0.4",
-        "codecov": "^3.8.0",
+        "codecov": "^3.8.1",
         "enzyme": "^3.11.0",
         "enzyme-adapter-react-16": "^1.15.5",
         "eslint": "^7.12.1",
