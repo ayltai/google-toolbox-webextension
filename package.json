@@ -42,7 +42,7 @@
         "codecov": "^3.8.1",
         "enzyme": "^3.11.0",
         "enzyme-adapter-react-16": "^1.15.5",
-        "eslint": "^7.14.0",
+        "eslint": "^7.15.0",
         "react-scripts": "^4.0.1",
         "react-sortable-hoc": "^1.11.0",
         "react-test-renderer": "^17.0.1",
