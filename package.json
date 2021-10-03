@@ -36,7 +36,7 @@
     },
     "devDependencies": {
         "@testing-library/jest-dom": "^5.14.1",
-        "@testing-library/react": "^12.1.1",
+        "@testing-library/react": "^12.1.2",
         "@testing-library/user-event": "^13.2.1",
         "acorn": "^8.5.0",
         "codecov": "^3.8.3",
