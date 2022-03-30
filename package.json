@@ -45,7 +45,7 @@
         "eslint": "^8.12.0",
         "react-scripts": "^5.0.0",
         "react-sortable-hoc": "^2.0.0",
-        "react-test-renderer": "^17.0.2",
+        "react-test-renderer": "^18.0.0",
         "sinon-chrome": "^3.0.1",
         "stylelint": "^13.13.1",
         "stylelint-config-standard": "^22.0.0",
