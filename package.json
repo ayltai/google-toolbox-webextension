@@ -35,7 +35,7 @@
         "eject": "react-scripts eject"
     },
     "devDependencies": {
-        "@testing-library/jest-dom": "^5.16.3",
+        "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^12.1.4",
         "@testing-library/user-event": "^14.0.4",
         "acorn": "^8.7.0",
